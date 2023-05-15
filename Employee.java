@@ -1,21 +1,23 @@
-package com.java8;
-public class Employee {
+
+
+public class Employee  {
+	
 	private String name ;
-	private int id;
+	private int age ;
 	private int salary;
-	private int deptid;
-	private String status ;
+	// new file added in feature branch
+	private int dept_id;
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getId() {
-		return id;
+	public int getAge() {
+		return age;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setAge(int age) {
+		this.age = age;
 	}
 	public int getSalary() {
 		return salary;
@@ -23,26 +25,22 @@ public class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-	public int getDeptid() {
-		return deptid;
+	public int getDept_id() {
+		return dept_id;
 	}
-	public void setDeptid(int deptid) {
-		this.deptid = deptid;
+	public void setDept_id(int dept_id) {
+		this.dept_id = dept_id;
 	}
-	public String getStatus() {
-		return status;
-	}
-	public void setStatus(String status) {
-		this.status = status;
-	}
-	public Employee(String name, int id, int salary, int deptid, String status) {
+	public Employee(String name, int age, int salary, int dept_id) {
 		super();
 		this.name = name;
-		this.id = id;
+		this.age = age;
 		this.salary = salary;
-		this.deptid = deptid;
-		this.status = status;
+		this.dept_id = dept_id;
 	}
+	
+	
+	
 	
 	
 	
